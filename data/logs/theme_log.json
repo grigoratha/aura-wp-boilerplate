@@ -1,1 +1,4 @@
 {"time":"2026-06-05 22:36:09","level":"WARNING","domain":"customizer","caller":"theme_customizer_root_css_palette:274","invoker":"theme_customizer_root_css:341","msg":"Invalid HEX Color <>"}
+{"time":"2026-06-05 23:00:50","level":"WARNING","domain":"enqueue","caller":"theme_enqueue_css:21","invoker":"theme_enqueue_customizer_css:341","msg":"Could not find CSS file <C:\\Program Files\\Programming\\XAMMP\\htdocs\\sites\\Sandbox\/wp-content\/themes\/AuraMinimal\/assets\/css\/customizer\/customizer-controls.css>"}
+{"time":"2026-06-05 23:00:51","level":"WARNING","domain":"customizer","caller":"theme_customizer_root_css_palette:274","invoker":"theme_customizer_root_css:341","msg":"Invalid HEX Color <>"}
+{"time":"2026-06-05 23:00:52","level":"WARNING","domain":"customizer","caller":"theme_customizer_root_css_palette:274","invoker":"theme_customizer_root_css:341","msg":"Invalid HEX Color <>"}
