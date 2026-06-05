@@ -1,0 +1,97 @@
+{
+  "system": {
+    "serif": [
+      "Georgia",
+      "Palatino Linotype",
+      "Baskerville",
+      "Constantia",
+      "Cambria"
+    ],
+    "sans-serif": [
+      "Arial",
+      "Verdana",
+      "Tahoma",
+      "Helvetica",
+      "Trebuchet MS",
+      "Calibri",
+      "Candara"
+    ],
+    "monospace": [
+      "Courier", 
+      "Courier New",
+      "Ubuntu Mono",
+      "Consolas"
+    ],
+    "cursive": [
+      "Comic Sans MS"
+    ],
+    "fantasy": [
+      "Impact"
+    ]
+  },
+  "google": {
+    "serif": [
+      "Lora",
+      "Roboto Slab",
+      "Merriweather",
+      "Libre Baskerville",
+      "Playfair Display",
+      "Crimson Text",
+      "PT Serif",
+      "Bitter",
+      "Arvo"
+    ],
+    "sans-serif": [
+      "Exo",
+      "Exo 2",
+      "Lato",
+      "Open Sans",
+      "Roboto",
+      "Roboto Flex",
+      "Roboto Condensed",
+      "Source Sans Pro",
+      "Montserrat",
+      "Work Sans",
+      "Raleway",
+      "Poppins",
+      "Ubuntu",
+      "Nunito"
+    ],
+    "display": [
+      "Anton",
+      "Oswald",
+      "Pacifico",
+      "Fredoka One",
+      "Raleway Dots",
+      "Shadows Into Light",
+      "Bebas Neue",
+      "Bangers",
+      "Chewy",
+      "Play"
+    ],
+    "handwriting": [
+      "Caveat",
+      "Amatic SC",
+      "Indie Flower",
+      "Sacramento",
+      "Great Vibes",
+      "Dancing Script",
+      "Gloria Hallelujah",
+      "Patrick Hand",
+      "Satisfy",
+      "Kalam"
+    ],
+    "monospace": [
+      "PT Mono",
+      "Fira Code",
+      "Inconsolata",
+      "Cousine",
+      "Roboto Mono",
+      "Source Code Pro",
+      "JetBrains Mono",
+      "Share Tech Mono",
+      "Anonymous Pro",
+      "Ubuntu Mono"
+    ]
+  }
+}

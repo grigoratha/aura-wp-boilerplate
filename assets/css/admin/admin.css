@@ -1,0 +1,28 @@
+
+#ti-optml-notice {
+  /* Hide Optimole notice */
+    display                                 : none !important;
+}
+
+[class*="optimole"] {
+    display                                 : none !important;
+}
+
+#menu-icons-sidebar .nv-upgrade-notice {
+    /* Hide ThemeIsle Otter Preview notice */
+    display                                 : none;
+}
+
+#menu-paddock .wp-submenu li a {
+  font-size                                 : 0.9em;
+}
+
+.paddock-admin-menu-label {
+	font-weight                              : bold;
+	font-size                                : 1.05em;
+}
+
+.custom-menu-header {
+  color										: #f7f7 !important;
+  font-weight								: bold !important;
+}

@@ -1,0 +1,160 @@
+.report {
+    padding                                 : 18px;
+    font-family                             : Calibri;
+    color                                   : #1d2327;
+}
+
+.report-header {
+    display                                 : flex;
+    justify-content                         : space-between;
+    align-items                             : center;
+}
+
+.report h1 {
+    margin                                  : 0;
+    font-size                               : 22px;
+}
+
+.report p {
+    margin                                  : 4px 0px;
+    color                                   : #646970;
+}
+
+.report-actions {
+    display                                 : flex;
+    align-items                             : center;
+    gap                                     : 12px;
+    justify-content                         : flex-end;
+}
+
+.report .notice.info {
+    padding                                 : 12px;
+    margin                                  : 15px 0;
+    background                              : #e7f3ff;
+    border-left                             : 4px solid #2271b1;
+    display                                 : flex;
+    gap                                     : 10px;
+    align-items                             : flex-start;
+}
+
+.report .notice-icon {
+    font-size                               : 24px;
+    line-height                             : 1;
+}
+
+.report .notice-content {
+    font-size                               : 13px;
+    color                                   : #1d2327;
+}
+
+.report-spinner {
+    width                                   : auto;
+    height                                  : 46px;
+    display                                 : none;
+}
+
+.report-message {
+    margin                                  : 0;
+    font-size                               : 12px;
+    color                                   : #646970;
+    min-width                               : 140px;
+}
+
+.report .clear-btn {
+    padding                                 : 8px 14px;
+    border-radius                           : 4px;
+    border                                  : 1px solid #2271b1;
+
+    background                              : #2271b1;
+    color                                   : #fff;
+
+    font-size                               : 13px;
+    font-weight                             : 600;
+
+    cursor                                  : pointer;
+    transition                              : background 0.2s ease, border-color 0.2s ease;
+}
+
+.report .clear-btn:hover {
+    background                              : #135e96;
+    border-color                            : #135e96;
+}
+
+.report .clear-btn:active {
+    background                              : #0f4e7a;
+}
+
+.INFO::before {
+    content                                 : "🟢 ";
+}
+
+.WARNING::before {
+    content                                 : "🟠 ";
+}
+
+.ERROR::before {
+    content                                 : "🔴 ";
+}
+
+.log-level {
+    padding                                 : 12px;
+}
+
+.log-error,
+.log-empty {
+    padding                                 : 12px;
+}
+
+.log-header {
+    height                                  : 24px;
+    margin-top                              : 18px;
+    align-items                             : center;
+    padding-left                            : 4px;        
+    background                              : black;
+    border-bottom                           : 1px solid whiteSmoke;
+    font-weight                             : bold;
+    color                                   : white;
+}
+
+.log-entry {
+    font-size                               : 12px;
+    padding-top                             : 2px;
+    padding-bottom                          : 2px;
+    border-bottom                           : 1px dotted gray;
+    cursor                                  : pointer;
+}
+
+.log-entry:nth-child(2n) {
+    background                              : #ececec;
+}
+
+.log-trace {
+    left                                    : 20px;
+    display                                 : none;
+    position                                : absolute;
+    background                              : aliceblue;
+    padding                                 : 2px 12px;
+    border                                  : 1px solid gray;
+    border-radius                           : 4px;
+    box-shadow                              : 2px 2px 12px lightgray;
+    white-space                             : pre;
+    z-index                                 : 99;
+}
+
+.log-header,
+.log-entry {
+    display                                 : grid;
+    grid-template-columns                   : 0.25fr 0.5fr 0.5fr 1.5fr 1fr 3fr;
+}
+
+.log-highlight {
+    font-weight                             : 550;
+    font-family                             : Consolas;
+    font-size                               : 11px;
+    color                                   : #7b879d;
+}
+
+.log-error,
+.log-empty {
+    font-size                               : 1.25em;
+}

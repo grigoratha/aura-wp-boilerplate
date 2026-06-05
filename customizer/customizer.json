@@ -1,0 +1,82 @@
+{
+  "panels": {
+    "panel_aura": {
+      "title": "Aura","priority": 10, "description": "Aura Settings"
+    }
+  },
+
+  "sections": {
+    "section_style_menu": {
+      "title": "Menu", "priority": 30, "panel": "panel_aura"
+    },
+    "section_site_common": {
+      "title": "Site Info", "priority": 50, "panel": "panel_aura"
+    },
+    "section_page_maintenance": {
+      "title": "Maintenance", "priority": 60, "panel": "panel_aura"
+    }
+  },
+
+  "settings": {
+    "site_icon": {
+      "type": "theme_mod", "default": "", "sanitize_callback": "esc_url_raw"},
+    "site_name": {
+      "type": "theme_mod", "default": "", "sanitize_callback": "sanitize_text_field"},
+    "site_description": {
+      "type": "theme_mod", "default": "", "sanitize_callback": "sanitize_text_field"},
+
+    "menu_font": {
+      "type": "theme_mod", "default": "", "sanitize_callback": "sanitize_text_field", "transport": "postMessage"},
+    "menu_background_color": {
+      "type": "theme_mod", "default": "", "sanitize_callback": "sanitize_hex_color", "transport": "postMessage"},
+    "menu_item_color": {
+      "type": "theme_mod", "default": "", "sanitize_callback": "sanitize_hex_color", "transport": "postMessage"},
+    "menu_item_hover_color": {
+      "type": "theme_mod", "default": "", "sanitize_callback": "sanitize_hex_color", "transport": "postMessage"},
+    "menu_item_font_size": {
+      "type": "theme_mod", "default": 1, "sanitize_callback": "sanitize_float", "transport": "postMessage"},
+    "submenu_background_color": {
+      "type": "theme_mod", "default": "", "sanitize_callback": "sanitize_hex_color", "transport": "postMessage"},  
+    "submenu_item_color": {
+      "type": "theme_mod", "default": "", "sanitize_callback": "sanitize_hex_color", "transport": "postMessage"}, 
+    "submenu_item_hover_color": {
+      "type": "theme_mod", "default": "", "sanitize_callback": "sanitize_hex_color", "transport": "postMessage"}, 
+    "submenu_item_font_size": {
+      "type": "theme_mod", "default": "", "sanitize_callback": "sanitize_float", "transport": "postMessage"},
+
+	"maintenance_mode": {
+      "type": "theme_mod", "default": "false", "transport": "refresh"}
+  },
+
+  "controls": {
+    "control_site_icon": {
+      "type": "image", "mime_type": "image", "label": "Icon", "section": "section_site_common", "settings": "site_icon"},
+    "control_site_info_name": {
+      "type": "text", "label": "Name", "section": "section_site_common", "settings": "site_name"},
+    "control_site_info_description": {
+      "type": "text", "label": "Description", "section": "section_site_common", "settings": "site_description"},
+
+    "control_menu_font": {
+      "type": "select_font", "label": "Menu Font", "section": "section_style_menu", "settings": "menu_font"},  
+    "control_menu_background_color":
+      {"type": "color", "label": "Menu Background Color", "section": "section_style_menu", "settings": "menu_background_color"},
+   "control_menu_item_color": {
+      "type": "color", "label": "Menu Item Color", "section": "section_style_menu", "settings": "menu_item_color"},
+   "control_menu_item_hover_color": {
+      "type": "color", "label": "Menu Item Hover Color", "section": "section_style_menu", "settings": "menu_item_hover_color"},
+   "control_menu_item_font_size": {
+      "type": "number", "label": "Menu Item Font Size (em)", "section": "section_style_menu", "settings": "menu_item_font_size", "input_attrs": {"min": 0.5, "max":5.0, "step": 0.05}},
+   "control_submenu_background_color":
+      {"type": "color", "label": "Dropdown Background Color", "section": "section_style_menu", "settings": "submenu_background_color"},
+   "control_submenu_item_color":
+      {"type": "color", "label": "Dropdown Item Color", "section": "section_style_menu", "settings": "submenu_item_color"},
+   "control_submenu_item_hover_color":
+      {"type": "color", "label": "Dropdown Item Hover Color", "section": "section_style_menu", "settings": "submenu_item_hover_color"},
+   "control_submenu_item_font_size": {
+      "type": "number", "label": "Dropdown Item Font Size (em)", "section": "section_style_menu", "settings": "submenu_item_font_size", "input_attrs": {"min": 0.5, "max":5.0, "step": 0.05}},
+
+	"control_maintenance_mode": { 
+      "type": "checkbox", "mime_type": "image", "label": "Maintenance Mode", "section": "section_page_maintenance", "settings": "maintenance_mode"}
+  }
+}
+

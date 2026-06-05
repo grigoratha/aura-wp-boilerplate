@@ -1,0 +1,12 @@
+.dropdown a {
+	display: flex;
+	justify-items: center;
+	align-items: center;
+	gap: 6px;
+}
+
+.dropdown .menu-caret-icon {
+	width: 12px;
+	position: relative;
+	top: 4px;
+}

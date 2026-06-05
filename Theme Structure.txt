@@ -1,0 +1,64 @@
+theme/
+│
+├── admin/   
+|   ├── assets/                     # Assets                     
+│   ├── pages/                      # Pages
+│   ├── services/                   # Services
+|   ├── vendor/                     # 3rd Party
+│   └── views/                      # UIs
+│
+├── assets/                        
+│   ├── css/                        # Styles
+│   ├── images/                     # Images
+│   ├── js/                         # Javascript
+│   └── packages/                   # 3rd Party libraries
+│
+├── bootstrap/                   
+│   ├── bootstrap.php               # Bootstrap
+│   ├── domains.php                 # Log Domains
+│   └── paths.php                   # Paths
+│
+├── config/                   
+│   ├── animista.json               # Animista configuration
+│   └── fonts.json                  # Fonts configuration
+│
+├── core/                          
+│   ├── func_admin.php              # Admin helpers
+│   ├── func_ajax.php               # AJAX dispatcher and helpers
+│   ├── func_api.php                # HTTP Requests helper
+│   ├── func_assets.php             # 
+│   ├── func_content.php            # 
+│   ├── func_customizer.php         # Admin
+|   ├── func_data.php               # JSON file read/write helpers
+|   ├── func_enqueue.php            # Enqueue resources helpers
+|   ├── func_setup.php
+│   └── logger.php                  # Development logger
+│
+├── customizer/                   
+│   ├── customizer.php              # Customizer Bootstrap
+│   └── customizer.json             # Customizer Configuration
+│
+├── data/                      
+│   ├── logs/                       # Development logs
+│
+├── template-parts/              
+│   ├── components/                 # Components
+|   ├── content/                    # Content
+│   ├── footer/                     # Footers
+│   ├── header/                     # Headers
+│   ├── menu/                       # Menus
+│   ├── menu/                       # Pages
+│   └── sections/                   # Sections
+|
+├── 404.php                        
+├── footer.php                     
+├── front-page.php                 
+├── functions.php                  
+├── header.php                     
+├── index.php                      
+├── page-maintenance.php          
+├── page.php                      
+├── single.php                    
+|
+├── style.css                     
+└── screenshot.png                
