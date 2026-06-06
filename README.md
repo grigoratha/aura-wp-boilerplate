@@ -208,4 +208,4 @@ The goal is not to provide a feature-rich theme, but to illustrate a scalable an
 
 ## License
 
-MIT
+MIT License
