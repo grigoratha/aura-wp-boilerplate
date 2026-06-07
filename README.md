@@ -4,6 +4,7 @@ A minimal WordPress theme built with the **Aura WP Boilerplate**.
 
 Aura WP is a lightweight, modular WordPress theme architecture designed for building custom themes with a consistent structure, reusable components, and a faster development workflow.
 
+![](screenshot.png)
 ---
 
 ## Overview
